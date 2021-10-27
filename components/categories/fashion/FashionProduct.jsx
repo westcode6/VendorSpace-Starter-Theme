@@ -74,7 +74,7 @@ export default function FashionProducts({ title }) {
     <div className="grid grid-cols-12 gap-5 mb-4">
      {product.map((item, index) => (
       <div
-       className="col-span-6 md:col-span-2 hover:shadow-xl transform hover:scale-105 transition duration-500 relative"
+       className="col-span-6 md:col-span-2  shadow-sm hover:shadow-xl transform hover:scale-105 transition duration-500 relative"
        key={index}
       >
        <Link href={item.link}>
@@ -82,7 +82,7 @@ export default function FashionProducts({ title }) {
          <figure>
           <img
            src={item.image}
-           className="object-cover w-44 h-40 rounded-md"
+           className="object-cover w-full h-44 rounded-sm"
            alt="product"
           />
          </figure>

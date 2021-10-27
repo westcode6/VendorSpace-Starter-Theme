@@ -4,7 +4,7 @@ export default function Catergories({ children }) {
  return (
   <>
    <div
-    className="text-center py-3 mb-2"
+    className="text-center py-3 mb-3"
     style={{ background: "#E2F5FF", fontWeight: "600" }}
    >
     <h2 className="text-md text-gray-700 tracking-wide">
@@ -13,7 +13,7 @@ export default function Catergories({ children }) {
    </div>
    <section className="grid grid-cols-12">
     <Link href="/">
-     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500">
+     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500 mb-3 ">
       <figure>
        <Image
         src="/image/fashion/s95.jpg"
@@ -31,7 +31,7 @@ export default function Catergories({ children }) {
     </Link>
 
     <Link href="/">
-     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500">
+     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500 mb-3">
       <figure>
        <Image
         src="/image/fashion/green-bag.jpg"
@@ -49,7 +49,7 @@ export default function Catergories({ children }) {
     </Link>
 
     <Link href="/">
-     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500">
+     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500 mb-3">
       <figure>
        <Image
         src="/image/fashion/s84.jpg"
@@ -67,7 +67,7 @@ export default function Catergories({ children }) {
     </Link>
 
     <Link href="/">
-     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500">
+     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500 mb-3">
       <figure>
        <Image
         src="/image/watches/3.jpg"
@@ -85,7 +85,7 @@ export default function Catergories({ children }) {
     </Link>
 
     <Link href="/">
-     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500">
+     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500 mb-3">
       <figure>
        <Image
         src="/image/shoes/shoe1.jpg"
@@ -103,7 +103,7 @@ export default function Catergories({ children }) {
     </Link>
 
     <Link href="/">
-     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500">
+     <div className="col-span-6 md:col-span-2 px-1 hover:shadow-xl transform hover:scale-105 transition duration-500 mb-3">
       <figure>
        <Image
         src="/image/health/body-care.jpg"
