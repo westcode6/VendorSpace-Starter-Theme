@@ -4,7 +4,6 @@ import Document, {
  Main,
  NextScript,
 } from "next/document";
-import "../styles/globals.css";
 
 class MyDocument extends Document {
  render() {
